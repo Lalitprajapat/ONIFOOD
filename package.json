@@ -4,6 +4,7 @@
   "description": "this is rct by me",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
     "test": "jest"
   },
   "repository": {
@@ -17,10 +18,15 @@
   "author": "lalit",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.13.3"
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
-  }
+  },
+  "browserslist": [
+    "last 10 Chrome version",
+    "last 2 firefox version"
+  ]
 }
