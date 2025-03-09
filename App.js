@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client"
 const heading = React.createElement("h1", {id: "Heading"}, "Holla React"); //it takes 3 inputs tag ,{} where we give attributes to our tag , value we want to put inside tag
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
