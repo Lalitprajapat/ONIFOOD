@@ -1,0 +1,49 @@
+<svg
+  version="1.1"
+  width="150"
+  height="100"
+  viewBox="0 0 300 300"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Red pin shape -->
+  <path
+    fill="#E11931"
+    d="
+      M 150,50
+      C 120,50 100,70 100,100
+      C 100,140 150,190 150,190
+      C 150,190 200,140 200,100
+      C 200,70 180,50 150,50
+      Z
+    "
+  />
+
+  <!-- White ring in the center -->
+  <circle cx="150" cy="90" r="20" fill="#FFFFFF" />
+  <circle cx="150" cy="90" r="10" fill="#E11931" />
+
+  <!-- ONIFOOD text -->
+  <text
+    x="150"
+    y="230"
+    text-anchor="middle"
+    font-size="30"
+    fill="#000000"
+    font-family="sans-serif"
+    font-weight="bold"
+  >
+    ONIFOOD
+  </text>
+
+  <!-- Tagline text (copied as-is from the PNG, though it appears to be placeholder) -->
+  <text
+    x="150"
+    y="260"
+    text-anchor="middle"
+    font-size="14"
+    fill="#000000"
+    font-family="sans-serif"
+  >
+    FOOD DELIVERY,TOGLE HERE
+  </text>
+</svg>
