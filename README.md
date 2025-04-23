@@ -14,3 +14,10 @@
   - client side routing
   - server side routing
 
+# Redux Toolkit
+ - Install @reduxjs/toolkit and react-redux
+ - build our store
+ - connect store to app
+ - create cardSlice(to add item of cards)
+ - dispatch(action)
+ - read the data using selector
